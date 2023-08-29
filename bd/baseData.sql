@@ -17,6 +17,8 @@ hasta int(4),
 interes int(4)
 );
 
+insert into intereses (desde,hasta,interes)values(1,7,5),(8,15,10),(16,30,20),(31,999,100);
+
 
 select * from facturas;
 
